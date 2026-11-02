@@ -83,3 +83,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes hero-float {
+  50% { transform: translateY(-8px); }
+}
+@keyframes hero-wave {
+  50% { opacity: 0.35; }
+}
+.hero-float { animation: hero-float 5s ease-in-out infinite; }
+.hero-wave { animation: hero-wave 1.8s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-float, .hero-wave { animation: none; }
+}
