@@ -1,0 +1,20 @@
+# Codittle project — auto-generated .gitignore
+# Internal metadata (folder mappings, version index, file-type overrides)
+.codittle/
+
+# jBC compile output
+*.o
+*.obj
+.compiled/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
